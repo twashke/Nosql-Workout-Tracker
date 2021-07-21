@@ -4,7 +4,7 @@ const path = require("path");
 module.exports = (app) => {
     // Get home page 
     app.get("/", (req, res) => {
-        res.sendFile(path.join(_dirname, "../public/html/index.html"));
+        res.sendFile(path.join(__dirname, "../public/html/index.html"));
     })
     // Get the exercise page
     app.get("/exercise", (req, res) => {
