@@ -11,8 +11,8 @@ module.exports = (app) => {
         res.sendFile(path.join(__dirname, "../public/html/exercise.html"));
     })
     // Get the workout page
-    app.get("/workout", (req, res) => {
-        res.sendFile(path.join(__dirname, "../public/html/workout.html"));
+    app.get("/stats", (req, res) => {
+        res.sendFile(path.join(__dirname, "../public/html/stats.html"));
     })
 };
 
