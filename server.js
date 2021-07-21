@@ -1,30 +1,35 @@
+// Declare Dependencies
 const express = require("express");
-const mongojs = require("mongojs");
+const mongoose = require("mongoose");
 const logger = require("morgan");
 
+// Declare Port
 const PORT = process.env.PORT || 3000;
 
+// Create express app
 const app = express();
 
+// Use logger
 app.use(logger("dev"));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// Use the Public Folder
 app.use(express.static("public"));
 
-const databaseURL = "fitnesstracker";
-const collection = ["workouts"];
-
-const db = mongojs(databaseURL, collection);
-
-db.on("error", error => {
-    console.log("Database Error", error);
+// Connect to Mongo Database
+mongoose.connect(process.env.MOONGODB_URI || "mongodb://localhost/workout", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true
 });
 
-require("./routes/apiRoutes")(app);
+// Connect to Routes
+// require("./routes/apiRoutes")(app);
 require("./routes/htmlRoutes")(app);
 
+// Start Port
 app.listen(PORT, () => {
-    console.log("App running on port 3000!");
+    console.log(`App running on port ${PORT}!`);
 })
