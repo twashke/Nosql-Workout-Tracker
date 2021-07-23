@@ -56,7 +56,7 @@ module.exports = (app) => {
 // -----------------------------------------|
 
     app.get(`/api/workouts/range`, (req, res) => {
-        Workout.find({}).limit(7)
+        Workout.find({}).sort({ day: -1 }).limit(7)
             .then((dbWorkout) => {
                 console.log(dbWorkout);
                 res.json(dbWorkout);
