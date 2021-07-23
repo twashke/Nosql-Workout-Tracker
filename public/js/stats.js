@@ -37,7 +37,6 @@ function populateChart(data) {
   const pounds = calculateTotalWeight(data);
   // Added distance for cardio
   const distance = calculateTotalDistance(data);
-  console.log(distance);
 
   const line = document.querySelector('#canvas').getContext('2d');
   const bar = document.querySelector('#canvas2').getContext('2d');
