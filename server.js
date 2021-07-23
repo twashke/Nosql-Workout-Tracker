@@ -2,7 +2,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
-// Uncomment to drop seeds with server
 // require("./seeders/seed");
 
 // Declare Port
