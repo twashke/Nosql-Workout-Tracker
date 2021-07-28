@@ -20,7 +20,10 @@ module.exports = (app) => {
             });
     });
 
-    // PUT new workout by id
+// -----------------------------------------|
+//          Add to Current Workout          | 
+// -----------------------------------------|
+
     app.put(`/api/workouts/:id`, (req, res) => {
         Workout.findByIdAndUpdate({
             _id: req.params.id}, { $push: { exercises: req.body } }, { new: true })
@@ -33,7 +36,6 @@ module.exports = (app) => {
             console.log(error);
         });
     });
-
 
 // -----------------------------------------|
 //         GET Workout Information          | 
