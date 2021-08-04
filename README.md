@@ -6,7 +6,7 @@
 
 A workout tracker utilizing mongoDB.
 
-## Table of Contents 
+## Table of Contents
 
 - [About the Project](#about-the-project)
 - [Installation](#installation)
@@ -20,11 +20,18 @@ A workout tracker utilizing mongoDB.
 
 ## Installation
 
-npm install
+- Open [Workout Tracker](https://github.com/twashke/Nosql-Workout-Tracker)
+- Use the command line to **git clone**
+- **npm install**
+- Must have [MongoDB](https://www.mongodb.com/) installed locally
+- **node seeders/seed.js** to drop seeds in command line.
+- **npm start** from command line to connect server.
+- Go to [localhost:3001](http://localhost:3001/) in Web Browser to view.
 
 ## Usage
 
-Go to Deployed Workout Tracker  
+Go to [Deployed Workout Tracker](https://fitnesstracker072021.herokuapp.com/?id=610ad82ab997cd0015123b6a)
+
 ![Nosql Workout Tracker]()
 
 ## Contributing
@@ -33,20 +40,17 @@ Front end code provided.
 
 ## Tests
 
-
-
 ## License
 
-This application is covered by the [MIT License](https://opensource.org/licenses/MIT). 
-       
+This application is covered by the [MIT License](https://opensource.org/licenses/MIT).
+
       Copyright 2021 Tiffany Washke
 
       Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-      
-      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-      
-      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
+      The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+      THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 ## Questions
 
@@ -55,5 +59,4 @@ This application is covered by the [MIT License](https://opensource.org/licenses
 - **Email directly at** twashke@gmail.com
 - **GitHub User Name:** [twashke](https://github.com/twashke)
 
-![Developer Profile Picture](https://avatars.githubusercontent.com/u/79234530?v=4) 
-
+![Developer Profile Picture](https://avatars.githubusercontent.com/u/79234530?v=4)
