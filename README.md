@@ -24,14 +24,7 @@ A [Nosql Workout Tracker](https://fitnesstracker072021.herokuapp.com/?id=610ad82
 - The **Dashboard** allows the user the ability to view their last seven workouts using a line graph and bar graphs.
 - An additional bar graph was added to show the distance from cardio from the last seven workouts.
 - This project was deployed on [Heroku](https://www.heroku.com) and connected to [MongoDBAtlas](https://www.mongodb.com/cloud/atlas/lp/try2?utm_source=google&utm_campaign=gs_americas_united_states_search_core_brand_atlas_desktop&utm_term=mongodb%20atlas&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624338&gclid=CjwKCAjw9aiIBhA1EiwAJ_GTSiMeUA88Ve_kTtEtHUYP_veuiRJcw_j8htZeHqqp6zjXuUAIeH2w1hoC2v8QAvD_BwE) to create, update, and fetch workouts.
-- Built with the following technologies:
-  - [path](https://www.npmjs.com/package/path)
-  - [express](https://www.npmjs.com/package/express)
-  - [mongoose](https://www.npmjs.com/package/mongoose)
-  - [morgan](https://www.npmjs.com/package/morgan)
-  - [HTML](https://www.w3schools.com/html/), [CSS](https://www.w3.org/Style/CSS/Overview.en.html), and [Javascript](https://www.javascript.com/)
-  - [Bootstrap](https://getbootstrap.com/)
-  - [Chart.js](https://www.npmjs.com/package/chart.js)
+  [MongoDB](https://www.mongodb.com/) database.
 
 ## Installation
 
